@@ -1,0 +1,22 @@
+******************************
+* Lab 1a Synthesis Questions *
+******************************
+Name(s): Anthony Wen
+NetID(s): wena04
+
+
+-----------------------------------------------------------
+1) Steps: First, I initialized the two pointers to point at 2 consecutive elements in the given array. It was necessary to set it up so that the two pointers were consecutive since otherwise we will be calculating the size for 1 int/double/char but for multiple. Then, I did pointer arithmetic on the two pointers by getting the difference after casting both to unsigned char* and having the difference be returned as an int/double/char to match the function. I had to cast the two pointers to unsigned char* because if I just kept it as, for example, int* then the difference would have just been 1 int element, so I had to switch it down a level so that it was calculating in terms of smaller units or bytes. The reason for subtraction was because one pointer is the second element in the array and the other is the one before it. The final difference is then casted back to the type the function is supposed to return so that it doesn't run into any compliling issues.
+
+
+
+-----------------------------------------------------------
+2) Explain: Basically, if it was an int and not poitners, the original value/data stored in that specific memory would not be actually changed and instead it would actually just be copies of the values that are switched. Making the arguments passed in as pointers provide direct access to the memory to actually change the value stored in there instead of just swapping copies of the value and keeping the original values unchanged.
+
+
+
+-----------------------------------------------------------
+3) Positive/drawback: A good thing was that it made it a lot easier to understand coding and still be able to perform things like defining, arithmetics, OOP and all that as we don't have to worry about such low-level and small details like pointers. This way we can just focus on the fundamental logics. However, it also made it so that we wouldn't be fully aware of how things worked (which is bad as these memory stuff is so cool) and won't be able to make the best choices when we are programming in more complex scenerios. 
+
+
+
