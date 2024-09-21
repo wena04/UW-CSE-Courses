@@ -1,0 +1,26 @@
+******************************
+* Lab 1b Synthesis Questions *
+******************************
+Name(s): Anthony Wen 
+NetID(s): wena04
+
+
+-----------------------------------------------------------
+1) Benefit 1:Using 8 bits to stroe unique item ID would allow 192 more unique encodings for unique item ID (from 2^6 to 2^8)
+
+   Benefit 2: Using lowest 8 bits for item count eliminate the need to do bit manipulation to extract count, and also increase the count of items.
+
+   Drawback: It allows less items to be represented
+
+   Store manager preference w/ justification: I think the friend's recommendation is pretty good since having less stocks/item makes it easier to manage the store.
+
+-----------------------------------------------------------
+2) Difference? Yes!
+
+   Explain: the value y depends on its type, like if it is signed or unsigned. For example, if y=-1 was unsigned integer, it would store 0xFFFFFFFF, but y=0xFFFFFFFF will hold the maximum value of 2^32.
+
+-----------------------------------------------------------
+3) Explain: It's problematic because of rounding errors that happen when your comparing the floats. Also, it cannot represent all rnages of numbers, so if you add really tiny numbers to a larger one, the final value might not change.
+
+   Considerations: We need to consider the rounding and over/under flow threshold of what is compared. 
+

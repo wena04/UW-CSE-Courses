@@ -1,0 +1,22 @@
+*****************************
+* Lab 3 Synthesis Questions *
+*****************************
+Name(s): Anthony Wen, Tim Avilov
+NetID(s): wena04, timchick
+
+
+-----------------------------------------------------------
+1) Explain: The second argument corrupts the array as the value is bigger than the size of the array, creating a segmentation fault since it has to much data. The specific part that causes this would be the mov instruction in the fill_array function when accessing.
+
+-----------------------------------------------------------
+2) Minimum length to cause a seg fault: 10 bytes
+   Calculation: the array has a maximum of 10
+-----------------------------------------------------------
+3) Hacker Reflection: The part that really made me feel like a hacker was when I finally injected my own binary code during level 2 bang. It was like that moment when I felt the thing I actually try work, and I finally understand a bit more on how level language translates to assembly code then to hexadecimal values then to bytes that can be run.
+
+
+-----------------------------------------------------------
+4) Vulnerabilities and Security: Now i know that if you just understand the fundamental building blocks of some kind of program or computer or anything, you will be able to break it too. THere's nothing really 100% safe, there can be safe guards but there won't ever be something that is really "anti"safe guard. The security of a computer is just like a race of who finds the mistakes or loop hole first, who understands the program more, and who knows how to use them. 
+
+
+-----------------------------------------------------------

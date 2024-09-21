@@ -1,0 +1,30 @@
+*****************************
+* Lab 2 Synthesis Questions *
+*****************************
+Name(s): Anthony Wen, Tim Avilov
+NetID(s): wena04, timchick
+
+
+-----------------------------------------------------------
+1) &value: 12
+   &array: 16
+-----------------------------------------------------------
+2) Init:   <fillArray+40>
+   Update: <fillArray+52>
+-----------------------------------------------------------
+3) String address: 0x4020a2
+   Part of memory: data segment
+   Assembly instruction address: <function+8>
+-----------------------------------------------------------
+4) Strategy + example: setting up breakpoints inside of phases + for example in phase 5, you set a break right before the comparison and the jump to explode_bomb function made it easier to check values that were inputted, allowing problems to be solved faster. 
+Also, it was important to write down intermediate values to verify the logical chain and not to fall back to the beginnings.
+Also having the cse351 cheat sheet in front of the eyes was super helpful to reason though the whole thing. 
+Also an assumption for the code to be somewhat useful and not random conglomerate of operations, did allow me to more easily map what I see to what the function actually tries to do.
+Also reading tips and scan documentation was insanely helpful. You cannot solve something that you don't understand ! 
+-----------------------------------------------------------
+5) Difficulty + why (past experience): Figuring out loops + it was hard to identify when the for loop is set up and which part of the assembly code is the comparison and when it updates what value inside the loop. This was especially for question 2. 
+The hardest part of assembly, is readability. Absence of variable names and constant reuse of the same registers does make it super hard to conceptually understand the bigger picture of the goal of the computation. 
+The biggest challenges that we faced was figuring out loops (2nd question) + it was hard to identify when the for loop is set up and which part of the assembly code is the comparison and when it updates what value inside the loop.
+I think it would've been practically impossible to debug code the size of thisassigmebnt without visible reg values. It comes true for any recursion or jumps. It is just hard to know what value set means what conceptually in the computation. And verification of the cohesion for the preset arguments just takes so much extra thought
+-----------------------------------------------------------
+

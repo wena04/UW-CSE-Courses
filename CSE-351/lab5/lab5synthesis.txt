@@ -1,0 +1,19 @@
+*****************************
+* Lab 5 Synthesis Questions *
+*****************************
+Name(s): Anthony Wen, Tim Avilov 
+NetID(s): wena04, timchick
+
+
+-----------------------------------------------------------
+1) Alignment: 16
+   Reasoning: I experimented with different sizes and looked over the delta between 2 blocks of memory that are being allocated. The minimum size was 32. It stayed this size right up until I started allocating 25 bytes. Then it increased to 48. Which tells me that it added 16 additional bytes when I wanted just one more. Thus it did so because it needed to do padding of 15 bytes. Thus the alignment is 16 bytes. The logic continued being consistent even when I tried to allocate 40 (resulted into 48) and then 41 (resulted into 64).
+
+
+
+-----------------------------------------------------------
+2) Boundary Tag Size: 8
+   Reasoning: The occupied block of memory doesn't need to have a footer. It has only header which is size of a word (8 bytes). Thus when I did my experiment, the maximum of payload that was instable into the 32 byte allocation was 24 which gives us the size of sa word (8 bytes). The logic continued as I continued experimenting with bigger allocations. 
+
+
+-----------------------------------------------------------

@@ -1,0 +1,331 @@
+/lib64/ld-linux-x86-64.so.2
+fgets
+connect
+memmove
+__libc_start_main
+fputc
+fprintf
+socket
+signal
+fopen
+fclose
+strcpy
+cuserid
+strtol
+__ctype_b_loc
+stdout
+puts
+fflush
+system
+strlen
+sleep
+getenv
+tmpfile
+sprintf
+stdin
+gethostbyname
+exit
+__isoc99_sscanf
+rewind
+fwrite
+libc.so.6
+GLIBC_2.3
+GLIBC_2.7
+GLIBC_2.34
+GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+PTE1
+5u	[
+ATUSH
+[]A\
+ATUSH
+[]A\
+AUATUSH
+X[]A\A]
+$nobof
+%s: Error: Couldn't open %s
+Usage: %s [<input_file>]
+That's number 2.  Keep going!
+Halfway there!
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+So you got that one.  Try this one.
+Congratulations! You've (mostly) defused the bomb!
+Hit Control-C to escape phase 6 (for free!), but if you want to
+try phase 6 for extra credit, you can continue.  Just beware!
+Oh, play it cool. Play it cool. Here come the space cops.
+Wow! You've defused the secret stage!
+So you think you can stop the bomb with ctrl-c, do you?
+nonexistenthost.cs.washington.edu
+Curses, you've found the secret phase!
+But finding it and solving it are quite different...
+Congratulations! You've defused the bomb! Again!
+Well...
+OK. :-)
+Invalid phase%s
+Bad host (1).
+Bad host (2).
+Bad host (3).
+defused
+exploded
+ERROR: dup(0) error
+ERROR: close error
+ERROR: tmpfile error
+Subject: Bomb notification
+bomb-header:%s:%d:%s:%s:%d
+bomb-string:%s:%d:%s:%d:%s
+bomb
+/usr/sbin/sendmail -bm
+%s %s@%s
+ERROR: notification error
+ERROR: fclose(tmp) error
+ERROR: dup(tmpstdin) error
+ERROR: close(tmpstdin)
+BOOM!!!
+The bomb has blown up.
+%d %d %d %d %d %d
+Error: Premature EOF on stdin
+GRADE_BOMB
+Error: Input line too long
+%d %s
+austinpowers
+attu1.cs.washington.edu
+attu2.cs.washington.edu
+attu3.cs.washington.edu
+attu4.cs.washington.edu
+;*3$"
+uwcse351-24su-lab2
+GCC: (GNU) 11.4.1 20231218 (Red Hat 11.4.1-3)
+AV:4p1231
+RV:running gcc 11.4.1 20231218
+BV:annobin gcc 11.4.1 20231218
+GW:0x3d2056a ../sysdeps/x86/abi-note.c
+SP:3
+SC:-1 ../sysdeps/x86/abi-note.c
+CF:8 ../sysdeps/x86/abi-note.c
+FL:-1 ../sysdeps/x86/abi-note.c
+GA:1
+PI:3
+SE:0
+iS:0
+GW:0x3d2056a init.c
+SC:-1 init.c
+CF:8 init.c
+FL:-1 init.c
+GW:0x3d2056a static-reloc.c
+SC:-1 static-reloc.c
+CF:8 static-reloc.c
+FL:-1 static-reloc.c
+;!$9
+printf
+__off_t
+_IO_read_ptr
+_chain
+size_t
+_shortbuf
+_IO_buf_base
+long long unsigned int
+read_line
+long long int
+phase_defused
+_fileno
+_IO_read_end
+_flags
+_IO_buf_end
+_cur_column
+_IO_codecvt
+_old_offset
+infile
+initialize_bomb
+_IO_marker
+stdin
+_freeres_buf
+_IO_write_ptr
+GNU C17 11.4.1 20231218 (Red Hat 11.4.1-3) -mtune=generic -march=x86-64-v2 -ggdb -O
+short unsigned int
+_IO_save_base
+_lock
+_flags2
+_mode
+__builtin_puts
+_IO_write_end
+_IO_lock_t
+_IO_FILE
+fopen
+_markers
+unsigned char
+short int
+_IO_wide_data
+_vtable_offset
+exit
+input
+__off64_t
+_IO_read_base
+_IO_save_end
+__pad5
+_unused2
+argv
+phase_1
+phase_2
+phase_3
+phase_4
+phase_5
+phase_6
+_IO_backup_base
+argc
+_freeres_list
+main
+_IO_write_base
+/homes/iws/namiel/TA/cse351-files/labs/lab2/generator/src
+bomb.c
+/usr/lib/gcc/x86_64-redhat-linux/11/include
+/usr/include/bits
+/usr/include/bits/types
+/usr/include
+stddef.h
+types.h
+struct_FILE.h
+stdio.h
+phases.h
+support.h
+stdlib.h
+<built-in>
+/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o
+__abi_tag
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.0
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+bomb.c
+phases.c
+array.0
+support.c
+sig_handler
+__FRAME_END__
+_DYNAMIC
+__GNU_EH_FRAME_HDR
+_GLOBAL_OFFSET_TABLE_
+skip
+getenv@GLIBC_2.2.5
+phase_defused
+__libc_start_main@GLIBC_2.34
+_ITM_deregisterTMCloneTable
+stdout@GLIBC_2.2.5
+strcpy@GLIBC_2.2.5
+puts@GLIBC_2.2.5
+stdin@GLIBC_2.2.5
+_edata
+fclose@GLIBC_2.2.5
+_fini
+strlen@GLIBC_2.2.5
+system@GLIBC_2.2.5
+num_input_strings
+phase_5
+rewind@GLIBC_2.2.5
+blank_line
+dup@GLIBC_2.2.5
+phase_3
+node9
+phase_1
+invalid_phase
+lab_id
+fputc@GLIBC_2.2.5
+node3
+fgets@GLIBC_2.2.5
+explode_bomb
+node1
+__data_start
+tmpfile@GLIBC_2.2.5
+signal@GLIBC_2.2.5
+node7
+gethostbyname@GLIBC_2.2.5
+node5
+fprintf@GLIBC_2.2.5
+__gmon_start__
+strtol@GLIBC_2.2.5
+fun7
+__dso_handle
+_IO_stdin_used
+host_table
+func4
+string_length
+fflush@GLIBC_2.2.5
+__isoc99_sscanf@GLIBC_2.7
+_end
+_dl_relocate_static_pie
+secret_phase
+infile
+__bss_start
+main
+memmove@GLIBC_2.2.5
+read_line
+strings_not_equal
+phase_4
+cuserid@GLIBC_2.2.5
+fopen@GLIBC_2.2.5
+phase_6
+scratch
+send_msg
+phase_2
+node8
+open_clientfd
+sprintf@GLIBC_2.2.5
+exit@GLIBC_2.2.5
+bomb_id
+connect@GLIBC_2.2.5
+fwrite@GLIBC_2.2.5
+__TMC_END__
+_ITM_registerTMCloneTable
+node2
+node4
+sleep@GLIBC_2.2.5
+node6
+_init
+read_six_numbers
+initialize_bomb
+fun6
+__ctype_b_loc@GLIBC_2.3
+socket@GLIBC_2.2.5
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.gnu.property
+.note.gnu.build-id
+.note.ABI-tag
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment
+.annobin.notes
+.gnu.build.attributes
+.debug_aranges
+.debug_info
+.debug_abbrev
+.debug_line
+.debug_str
+.debug_line_str
+.debug_loclists
