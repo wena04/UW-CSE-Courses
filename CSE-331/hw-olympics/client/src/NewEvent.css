@@ -1,0 +1,95 @@
+/** Sets the boundaries of the error message box. */
+.error-box {
+  width: 300px;
+  margin-top: 15px;
+}
+
+/** Styles the error message. */
+.error-message {
+  padding: 5px;
+  background-color: rgb(246, 194, 192);
+  border: 1px solid rgb(137, 66, 61);
+  text-wrap: wrap;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* New Event Form Styles */
+.new-event-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.new-event-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.new-event-form input[type="text"],
+.new-event-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.new-event-form button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background-color: #4a00e0;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-event-form button:hover {
+  background-color: #8e2de2;
+}
+
+.date-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.date-input-container label {
+  margin-right: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.date-input-container span {
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.date-input-container input {
+  width: 50px;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

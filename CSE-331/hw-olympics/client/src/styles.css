@@ -1,0 +1,121 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* Event list styles */
+.current-events {
+  margin-bottom: 20px;
+}
+
+.current-events ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.current-events li {
+  margin-bottom: 10px;
+}
+
+.event-box {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-box a {
+  text-decoration: none;
+  color: #4a00e0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.event-box a:hover {
+  color: #8e2de2;
+  text-decoration: underline;
+}
+
+/* Hover effect on event box */
+.event-box:hover {
+  background-color: #f0f8ff; /* Light blue background on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.current-events .buttons {
+  margin-top: 10px;
+}
+
+.current-events button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.current-events button:hover {
+  background-color: #e0e0e0;
+}
+
+.current-events .ticket-status {
+  font-weight: bold;
+  color: #d7263d;
+}
+
+.current-events .ticket-available {
+  color: #28a745;
+}
+
+.rankings {
+  margin-top: 30px;
+}
+
+.rankings ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rankings li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.rankings li.gold {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.rankings li.silver {
+  color: #c0c0c0;
+  font-weight: bold;
+}
+
+.rankings li.bronze {
+  color: #cd7f32;
+  font-weight: bold;
+}
+
+/* Loader style */
+.loader {
+  font-size: 16px;
+  color: #888;
+  font-style: italic;
+  margin: 10px 0;
+}

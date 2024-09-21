@@ -1,0 +1,2 @@
+- click into an event to view its details + CSS
+- does not allow duplicate event names
