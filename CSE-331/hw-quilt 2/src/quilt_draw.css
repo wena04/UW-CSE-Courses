@@ -1,0 +1,13 @@
+IMG.block {
+  width: 100px;
+  height: 100px;
+}
+
+IMG.rotate-ne {}
+IMG.rotate-se { transform: rotate(90deg); }
+IMG.rotate-sw { transform: rotate(180deg); }
+IMG.rotate-nw { transform: rotate(-90deg); }
+
+DIV.row {
+  height: 100px;
+}
